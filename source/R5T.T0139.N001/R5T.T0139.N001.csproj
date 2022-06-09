@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591;1573</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.B0002\source\R5T.B0002.X001\R5T.B0002.X001.csproj" />
+    <ProjectReference Include="..\..\..\R5T.D0078\source\R5T.D0078.Base\R5T.D0078.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.D0078\source\R5T.D0078.X004\R5T.D0078.X004.csproj" />
+    <ProjectReference Include="..\..\..\R5T.D0079\source\R5T.D0079.Base\R5T.D0079.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.D0083\source\R5T.D0083.Base\R5T.D0083.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.D0116\source\R5T.D0116.X002\R5T.D0116.X002.csproj" />
+    <ProjectReference Include="..\..\..\R5T.F0016\source\R5T.F0016\R5T.F0016.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0044\source\R5T.T0044.X002\R5T.T0044.X002.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0062\source\R5T.T0062.X001\R5T.T0062.X001.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0133\source\R5T.T0133\R5T.T0133.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0137\source\R5T.T0137\R5T.T0137.csproj" />
+    <ProjectReference Include="..\R5T.T0139.N008\R5T.T0139.N008.csproj" />
+  </ItemGroup>
+</Project>
