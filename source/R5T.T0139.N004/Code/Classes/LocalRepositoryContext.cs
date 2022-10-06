@@ -1,8 +1,11 @@
 ﻿using System;
 
+using R5T.T0137;
+
 
 namespace R5T.T0139.N004
 {
+    [ContextImplementationMarker]
     public class LocalRepositoryContext : ILocalRepositoryContext
     {
         public N003.ILocalRepositoryContext LocalRepositoryContext_N003 { get; set; }
